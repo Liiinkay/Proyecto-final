@@ -1,4 +1,5 @@
 body{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,53 +21,33 @@ ul{
 }
 
 .mainBox{
-    width: 60%;
+    width: 86%;
 }
 
-.ticketMainBox{
+.usuariosMainBox{
+    overflow-wrap: break-word;
     width: 100%;
     background-color: #24303c;
     box-shadow: 7px 13px 37px #000;
 }
 
-.ticketBox{
-    width: 100%;
+.usuariosBox{
+    align-items: center;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
-}
-
-.ticketBox2{
-    width: 300px;
-    background-color: white;
     margin: 3px;
+    margin-bottom: 15px;
 }
 
-.ticketAbierto{
-    display: flex;
-    justify-content: center;
-    background-color:rgb(68, 190, 68);
-}
-
-.ticketDesarrollo{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(241, 241, 88);
-}
-
-.ticketCerrado{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(231, 71, 71);
-}
-
-.ticketInsideBox{
-    margin: 2px 0;
+.usuariosInsideBox{
+    width: 300px;
+    margin: 2px;
     padding: 2px;
+    background-color: white;
 }
 
-.ticketMainText{
+.usuariosMainText{
     font-size: 30px;
     background-color: rgb(26, 25, 25);
     color:white;

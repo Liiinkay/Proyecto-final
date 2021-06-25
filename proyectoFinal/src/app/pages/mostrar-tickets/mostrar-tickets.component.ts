@@ -10,7 +10,9 @@ import { ServicioTicketsService } from 'src/app/services/servicio-tickets.servic
 export class MostrarTicketsComponent implements OnInit {
 
   lista:Array<Tickets>=ListaTickets;
-
+  estadoAbierto:string="Abierto";
+  estadoEnDesarrollo:string="En Desarrollo";
+  estadoCerrado:string="Cerrado";
   // lista:Array<Tickets>=[]; <-- La lista de arriba es de prueba, cuando estes probando el backend
   // tienes que comentar o borrar la de arriba, y ocupar la que esta aqui.
 

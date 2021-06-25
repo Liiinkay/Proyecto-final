@@ -15,6 +15,9 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
 import { MatDividerModule } from '@angular/material/divider';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BuscadorPipe } from './pipes/buscador.pipe';
+import { FiltrarPorEstadoPipe } from './pipes/filtrar-por-estado.pipe';
+import { MostrarUsuariosComponent } from './pages/mostrar-usuarios/mostrar-usuarios.component';
 
 
 @NgModule({
@@ -24,6 +27,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MostrarTicketsComponent,
     HeaderComponent,
     FooterComponent,
+    BuscadorPipe,
+    FiltrarPorEstadoPipe,
+    MostrarUsuariosComponent,
   ],
   imports: [
     BrowserModule,
